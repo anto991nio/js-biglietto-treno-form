@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: brown;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.text-white{
+    color: white;
+    
+}
+
+.testo-centrato{
+    text-align: center;
+}
+
+.dispinline{
+    display: inline-block;
+}
+
+.mypadding{
+    padding: 20px 0;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+#kmpercorsi{
+    margin: 0 100px;
+}
+
+.btnoption{
+    margin-top: 50px;
+}
+
+.text-red{
+    color: brown;
+    margin-bottom: 20px;
+}
+
+#kmpercorsi,
+#nome,
+#eta{
+    border: brown solid 1px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btnsub{
+    color: brown;
+    padding: 10px;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.contprezzo{
+    margin: auto;
+    width: 90%;
+}
+
+.displayflex{
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.classlarg{
+    width: 20%;
+    height: 200px;
+    position: relative;
+}
+
+.namepass{
+    background-color: gray;
+}
+
+
+.posizionecenter{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+

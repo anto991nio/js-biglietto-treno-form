@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="mypadding container">
+        <h1 class="text-white testo-centrato">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    </header>
+
+    <main>
+        <section class="container testo-centrato bg-white mypadding">
+
+            <form action="" id="myform">
+                <div class="dispinline">
+                    <p class="text-red">Nome Cognome</p>
+                    <input type="text" name="nomeCognome" id="nome">
+                </div>
+                <div class="dispinline">
+                    <p class="text-red">KM da percorrere</p>
+                    <input type="text" name="kmpercorrere" id="kmpercorsi">
+                </div>
+                <div class="dispinline">
+                    <p class="text-red">Fascia d'età</p>
+                    <select name="età" id="eta">
+                        <option>Minorenne</option>
+                        <option>Maggiorenne</option>
+                        <option>Over 65</option>
+                    </select>
+                </div>
+                <div class="btnoption">
+                    <button class="btnsub">GENERA</button>
+                    <button class="btnsub" type="reset">ANNULLA</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="mypadding container">
+            <h1 class="text-white testo-centrato">IL TUO BIGLIETTO</h1>
+        </section>
+
+        <section class="container  bg-white mypadding">
+            <div class="contprezzo">
+                <p> <strong>DETTAGLIO PASSEGGERI</strong> </p>
+            </div>
+            <div class="contprezzo displayflex ">
+                <div class="classlarg testo-centrato namepass mypadding">
+                    <p><strong>NOME <br> PASSEGGERO</strong></p>
+                    <p class="posizionecenter" id="nomePasseggero"></p>
+                </div>
+                <div class="classlarg testo-centrato  mypadding">
+                    <p><strong>OFFERTA</strong></p>
+                    <p class="posizionecenter" id="scontoApplicato"></p>
+                </div>
+                <div class="classlarg testo-centrato  mypadding">
+                    <p><strong>CARROZZA</strong></p>
+                    <p class="posizionecenter" id="nomeCarrozza"></p>
+                </div>
+                <div class="classlarg testo-centrato  mypadding">
+                    <p><strong>CODICE <br> CP</strong></p>
+                    <p class="posizionecenter" id="codiceCp"></p>
+                </div>
+                <div class="classlarg testo-centrato  mypadding">
+                    <p><strong>COSTO <br> BIGLIETTO</strong></p>
+                    <p class="posizionecenter" id="costoBiglietto"></p>
+                </div>
+                
+            </div>
+            
+
+        </section>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
