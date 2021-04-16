@@ -2,6 +2,8 @@ var myForm = document.getElementById("myform");
 
 myForm.addEventListener("submit", function (event) {
 
+    onclick=document.getElementById("bigliettodp").style.display = "block";
+
 
     var nomeElement = document.getElementById("nome");
     var kmpercorsiElement = document.getElementById("kmpercorsi");
@@ -62,5 +64,7 @@ myForm.addEventListener("submit", function (event) {
 })
 
 myForm.addEventListener("reset", function () {
-    console.log("reset")
+   
+    onclick=document.getElementById("bigliettodp").style.display = "none";
+
 })
